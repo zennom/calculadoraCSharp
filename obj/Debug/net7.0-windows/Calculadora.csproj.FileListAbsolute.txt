@@ -1,0 +1,17 @@
+C:\Users\Viviane\source\repos\Calculadora\bin\Debug\net7.0-windows\Calculadora.exe
+C:\Users\Viviane\source\repos\Calculadora\bin\Debug\net7.0-windows\Calculadora.deps.json
+C:\Users\Viviane\source\repos\Calculadora\bin\Debug\net7.0-windows\Calculadora.runtimeconfig.json
+C:\Users\Viviane\source\repos\Calculadora\bin\Debug\net7.0-windows\Calculadora.dll
+C:\Users\Viviane\source\repos\Calculadora\bin\Debug\net7.0-windows\Calculadora.pdb
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.csproj.AssemblyReference.cache
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.Form1.resources
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.dll
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\refint\Calculadora.dll
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.pdb
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\Calculadora.genruntimeconfig.cache
+C:\Users\Viviane\source\repos\Calculadora\obj\Debug\net7.0-windows\ref\Calculadora.dll
