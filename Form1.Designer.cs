@@ -47,13 +47,14 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.AliceBlue;
             button1.Location = new Point(16, 79);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(61, 61);
             button1.TabIndex = 2;
             button1.Text = "7";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
@@ -245,9 +246,10 @@
             // 
             // TxtResultado
             // 
+            TxtResultado.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TxtResultado.Location = new Point(16, 42);
             TxtResultado.Name = "TxtResultado";
-            TxtResultado.Size = new Size(327, 23);
+            TxtResultado.Size = new Size(327, 29);
             TxtResultado.TabIndex = 20;
             TxtResultado.TextAlign = HorizontalAlignment.Right;
             // 
@@ -264,7 +266,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(357, 338);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(362, 360);
             Controls.Add(labelOperacao);
             Controls.Add(TxtResultado);
             Controls.Add(button18);
@@ -287,7 +290,7 @@
             Controls.Add(button1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculadora";
             Load += Form1_Load_1;
             ResumeLayout(false);
             PerformLayout();

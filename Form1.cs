@@ -2,10 +2,7 @@ using System.Globalization;
 
 namespace Calculadora {
     public partial class Form1 : Form {
-        /*vamos criar duas variaveis que vão servir 
-        para guardamos o valor que o usuário digitou na calculadora */
         decimal valor1 = 0, valor2 = 0;
-        //e mais uma variavel que vai ter valor vazio
         string operacao = "";
         public Form1() {
             InitializeComponent();
@@ -73,7 +70,7 @@ namespace Calculadora {
 
         private void button4_Click(object sender, EventArgs e) {
 
-            if(TxtResultado.Text != "") {
+            if (TxtResultado.Text != "") {
                 valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
                 TxtResultado.Text = "";
                 operacao = "SOMA";
@@ -108,7 +105,7 @@ namespace Calculadora {
             } else {
                 MessageBox.Show("Informe um valor para efetuar a subtração");
             }
-                
+
         }
 
         private void button14_Click(object sender, EventArgs e) {
@@ -121,7 +118,7 @@ namespace Calculadora {
             } else {
                 MessageBox.Show("Informe um valor para efetuar a multiplicação");
             }
-                
+
         }
 
         private void button18_Click(object sender, EventArgs e) {
