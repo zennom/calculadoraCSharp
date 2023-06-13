@@ -73,10 +73,14 @@ namespace Calculadora {
 
         private void button4_Click(object sender, EventArgs e) {
 
-            valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
-            TxtResultado.Text = "";
-            operacao = "SOMA";
-            labelOperacao.Text = "+";
+            if(TxtResultado.Text != "") {
+                valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
+                TxtResultado.Text = "";
+                operacao = "SOMA";
+                labelOperacao.Text = "+";
+            } else {
+                MessageBox.Show("Informe um valor para efetuar a soma");
+            }
 
         }
 
@@ -95,24 +99,41 @@ namespace Calculadora {
         }
 
         private void button9_Click(object sender, EventArgs e) {
-            valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
-            TxtResultado.Text = "";
-            operacao = "SUB";
-            labelOperacao.Text = "-";
+
+            if (TxtResultado.Text != "") {
+                valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
+                TxtResultado.Text = "";
+                operacao = "SUB";
+                labelOperacao.Text = "-";
+            } else {
+                MessageBox.Show("Informe um valor para efetuar a subtração");
+            }
+                
         }
 
         private void button14_Click(object sender, EventArgs e) {
-            valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
-            TxtResultado.Text = "";
-            operacao = "MULT";
-            labelOperacao.Text = "*";
+
+            if (TxtResultado.Text != "") {
+                valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
+                TxtResultado.Text = "";
+                operacao = "MULT";
+                labelOperacao.Text = "*";
+            } else {
+                MessageBox.Show("Informe um valor para efetuar a multiplicação");
+            }
+                
         }
 
         private void button18_Click(object sender, EventArgs e) {
-            valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
-            TxtResultado.Text = "";
-            operacao = "DIV";
-            labelOperacao.Text = "*";
+
+            if (TxtResultado.Text != "") {
+                valor1 = decimal.Parse(TxtResultado.Text, CultureInfo.InvariantCulture);
+                TxtResultado.Text = "";
+                operacao = "DIV";
+                labelOperacao.Text = "*";
+            } else {
+                MessageBox.Show("Informe um valor para efetuar a divisão");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e) {
@@ -121,7 +142,6 @@ namespace Calculadora {
         }
 
         private void button10_Click(object sender, EventArgs e) {
-            //limpando o valor das variaveis e a operação
             TxtResultado.Text = "";
             valor1 = 0;
             valor2 = 0;
